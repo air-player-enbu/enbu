@@ -103,7 +103,7 @@ const reviewkassen: React.FC = () => {
           <CardTable
             title="攻撃大将"
             rows={[
-              { rank: '◎', images: ['TA013','TA006', 'TA007', 'TB008', 'TC008', 'TC010','TC012'], top: ['TA013']},
+              { rank: '◎', images: ['TA013','TA006', 'TA007', 'TB008', 'TC008', 'TC010','TC012','TA015'], top: ['TA013']},
               { rank: '〇', images: ['TA003', 'TA009', 'TA011', 'TC009', 'TB013', 'TC003'] },
               { rank: '△', images: [] },
             ]}

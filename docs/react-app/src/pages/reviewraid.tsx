@@ -107,8 +107,8 @@ const reviewraid: React.FC = () => {
           <CardTable
             title="計略大将"
             rows={[
-              { rank: 'SS', rankClass: 'rank-ss', images: ['TB011', 'TC007', 'TA014'] },
-              { rank: 'S',  rankClass: 'rank-s',  images: ['TA012', 'TA010', 'TC009', 'TC011', 'TB014'] },
+              { rank: 'SS', rankClass: 'rank-ss', images: ['TB011', 'TA014'] },
+              { rank: 'S',  rankClass: 'rank-s',  images: ['TC007','TA012', 'TA010', 'TC009', 'TC011', 'TB014'] },
               { rank: 'A',  rankClass: 'rank-a',  images: ['TB010'] },
               { rank: 'B',  rankClass: 'rank-b',  images: ['TB003', 'TC006','TB004'] },
               { rank: 'C',  rankClass: 'rank-c',  images: ['TA001', 'TA004', 'TB006'] },
