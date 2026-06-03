@@ -96,7 +96,7 @@ const reviewraid: React.FC = () => {
           <CardTable
             title="攻撃大将"
             rows={[
-              { rank: 'SS', rankClass: 'rank-ss', images: ['TB008', 'TC010'] },
+              { rank: 'SS', rankClass: 'rank-ss', images: ['TB008', 'TC010','TA015'] },
               { rank: 'S',  rankClass: 'rank-s',  images: ['TA013', 'TA011','TC012'] },
               { rank: 'A',  rankClass: 'rank-a',  images: ['TA007', 'TC008', 'TB013'] },
               { rank: 'B',  rankClass: 'rank-b',  images: ['TA003', 'TA009', 'TC002', 'TA006'] },
