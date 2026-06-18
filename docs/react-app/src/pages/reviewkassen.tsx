@@ -103,7 +103,7 @@ const reviewkassen: React.FC = () => {
           <CardTable
             title="攻撃大将"
             rows={[
-              { rank: '◎', images: ['TA013','TA006', 'TA007', 'TB008', 'TC008', 'TC010','TC012','TA015'], top: ['TA013']},
+              { rank: '◎', images: ['TA013','TA006', 'TA007', 'TB008', 'TC008', 'TC010','TC012','TA015','TP002'], top: ['TA013']},
               { rank: '〇', images: ['TA003', 'TA009', 'TA011', 'TC009', 'TB013', 'TC003'] },
               { rank: '△', images: [] },
             ]}
@@ -118,7 +118,7 @@ const reviewkassen: React.FC = () => {
           <CardTable
             title="計略大将"
             rows={[
-              { rank: '◎', images: ['TA012','TB004', 'TB010', 'TB011', 'TC006', 'TC007', 'TA014', 'TB014'], top: ['TA012'] },
+              { rank: '◎', images: ['TA012','TB004', 'TB010', 'TB011', 'TC006', 'TC007', 'TA014', 'TB014','TP003'], top: ['TA012'] },
               { rank: '〇', images: ['TA001', 'TA010', 'TC009', 'TB013', 'TA004'] },
               { rank: '△', images: [] },
             ]}

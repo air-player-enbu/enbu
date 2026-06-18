@@ -30,6 +30,7 @@ const Dataougi       = lazy(() => import('./pages/dataougi'));
 const Dataother      = lazy(() => import('./pages/dataother'));
 const Raidstatistics = lazy(() => import('./pages/raidstatistics'));
 const Tipsraid       = lazy(() => import('./pages/tipsraid'));
+const Collab          = lazy(() => import('./pages/collab'));
 
 function TopPage() {
   const [showAll, setShowAll] = useState(false);
@@ -121,6 +122,7 @@ function App() {
           <Route path="/dataother"     element={<Dataother />} />
           <Route path="/raidstatistics" element={<Raidstatistics />} />
           <Route path="/tipsraid"      element={<Tipsraid />} />
+          <Route path="/collab"         element={<Collab />} />
         </Routes>
       </Suspense>
       <CopyrightFooter />

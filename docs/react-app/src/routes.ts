@@ -15,4 +15,5 @@ export const routes = [
   { path: '/dataother',      title: 'データ-その他', file: 'src/pages/dataother.tsx' },
   { path: '/raidstatistics', title: '討伐デッキ統計', file: 'src/pages/raidstatistics.tsx' },
   { path: '/tipsraid',       title: 'デッキ-レイド', file: 'src/pages/tipsraid.tsx' },
+  { path: '/collab',           title: '進撃の巨人コラボ', file: 'src/pages/collab.tsx' },
 ];

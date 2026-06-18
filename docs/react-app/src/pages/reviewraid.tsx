@@ -54,7 +54,7 @@ const reviewraid: React.FC = () => {
           <div className="sohyo">
             ・フェスカードが超優秀<br />
             ・フェスカードは特攻になる頻度が高い<br />
-            ・フェスカードの奥義は現時点では必須クラス<br />
+            ・現環境応援大将はレイドでは戦力外<br />
             ・重課金以外は大将ガチャ券はフェスで全投入推奨
           </div>
 
@@ -97,10 +97,10 @@ const reviewraid: React.FC = () => {
             title="攻撃大将"
             rows={[
               { rank: 'SS', rankClass: 'rank-ss', images: ['TB008', 'TC010','TA015'] },
-              { rank: 'S',  rankClass: 'rank-s',  images: ['TA013', 'TA011','TC012'] },
+              { rank: 'S',  rankClass: 'rank-s',  images: ['TA013', 'TA011','TC012', 'TP002'] },
               { rank: 'A',  rankClass: 'rank-a',  images: ['TA007', 'TC008', 'TB013'] },
-              { rank: 'B',  rankClass: 'rank-b',  images: ['TA003', 'TA009', 'TC002', 'TA006'] },
-              { rank: 'C',  rankClass: 'rank-c',  images: ['TA005', 'TB002', 'TC003'] },
+              { rank: 'B',  rankClass: 'rank-b',  images: ['TA003', 'TA009', 'TC002', 'TA006','TP001'] },
+              { rank: 'C',  rankClass: 'rank-c',  images: ['TA005', 'TB002', 'TC003','TB012'] },
             ]}
           />
 
@@ -108,9 +108,9 @@ const reviewraid: React.FC = () => {
             title="計略大将"
             rows={[
               { rank: 'SS', rankClass: 'rank-ss', images: ['TB011', 'TA014'] },
-              { rank: 'S',  rankClass: 'rank-s',  images: ['TC007','TA012', 'TA010', 'TC009', 'TC011', 'TB014'] },
-              { rank: 'A',  rankClass: 'rank-a',  images: ['TB010'] },
-              { rank: 'B',  rankClass: 'rank-b',  images: ['TB003', 'TC006','TB004'] },
+              { rank: 'S',  rankClass: 'rank-s',  images: ['TC007', 'TP003'] },
+              { rank: 'A',  rankClass: 'rank-a',  images: ['TA012','TA010', 'TC009', 'TC011', 'TB014'] },
+              { rank: 'B',  rankClass: 'rank-b',  images: ['TB010','TB003', 'TC006','TB004'] },
               { rank: 'C',  rankClass: 'rank-c',  images: ['TA001', 'TA004', 'TB006'] },
             ]}
           />

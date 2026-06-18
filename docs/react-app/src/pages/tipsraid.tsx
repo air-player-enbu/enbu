@@ -85,8 +85,8 @@ const tipsraid: React.FC = () => {
             ・新しい大将は特攻倍率が高いため優先的に編成
             <img src="/img/raid/RA002.png" alt="RA002" style={{ display: 'block', margin: '10px', maxWidth: '120px' }} />
             <div className="point">
-              ☞特攻の大将を詰め込めば強いわけではない<br />
-              ☞育成状況や役割に応じて特攻なしの大将も使う
+              ☞フェス大将カードは大体特攻持ちになっている<br />
+              ☞育成状況や役割に応じて特攻なしの大将も使う場合がある
             </div>
           </div>
 
@@ -100,6 +100,7 @@ const tipsraid: React.FC = () => {
           <section>
             <h4>アタッカー</h4>
             <div className="sohyo">
+              ・特攻が正義。なによりもまず特攻カードを入れる<br />
               ・手持ちと相談して攻撃か計略に必ず寄せる<br />
               ・発動する補助の種類が多いとダメージアップ<br />
               <CardImageTable
@@ -125,7 +126,7 @@ const tipsraid: React.FC = () => {
           <section>
             <h4>サポーター</h4>
             <div className="sohyo">
-              ・手持ちによって全員アタッカーが有効な場合あり<br />
+              ・現環境は全員アタッカーが有効なのでサポーター不要<br />
               ・複数の部隊に効果があるスキルが効果的<br />
               <CardImageTable
                 title="5部隊ヒットスキル持ちの大将(4凸時点)"

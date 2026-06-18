@@ -23,6 +23,8 @@ type SerialRow = {
 };
 
 const serialData: SerialRow[] = [
+  { id: 'serial-HAMUBA',     code: 'ATTACK',    expireDate: '2026/6/29', expireText: '2026/06/29', distDate: '2026/06/16', distText: '2026/06/16' },
+  { id: 'serial-HAMUBA',     code: 'HAMUBA',    expireDate: '2026/7/31', expireText: '2026/07/31', distDate: '2026/06/01', distText: '2026/06/01' },
   { id: 'serial-TENICHITEN',  code: 'TENICHITEN', expireDate: '2026/6/30',  expireText: '2026/6/30',  distDate: '2026/5/19', distText: '2026/5/19' },
   { id: 'serial-GOLDENMARU',  code: 'GOLDENMARU', expireDate: '2026/5/31',  expireText: '2026/5/31',  distDate: '2026/5/19', distText: '2026/5/19' },
   { id: 'serial-THIRTEEN',    code: 'THIRTEEN',   expireDate: '2026/5/31',  expireText: '2026/5/31',  distDate: '2026/4/06', distText: '2026/4/06' },

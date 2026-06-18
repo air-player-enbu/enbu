@@ -1,4 +1,8 @@
 [ 
+  { "date": "2026-06-19", "page": "大将-合戦", "route": "/reviewkassen", "content": "新大将追加" },
+  { "date": "2026-06-19", "page": "大将-レイド", "route": "/reviewraid", "content": "新大将追加" },
+  { "date": "2026-06-19", "page": "進撃の巨人コラボ", "route": "/collab", "content": "開設" },
+  { "date": "2026-06-19", "page": "シリアルコード", "route": "/serialcode", "content": "コード追加" },
   { "date": "2026-06-03", "page": "大将-合戦", "route": "/reviewkassen", "content": "新大将追加" },
   { "date": "2026-06-03", "page": "大将-レイド", "route": "/reviewraid", "content": "新大将追加" },
   { "date": "2026-06-03", "page": "スキル玉合成", "route": "/skillroot", "content": "合成ルート最適化" },
